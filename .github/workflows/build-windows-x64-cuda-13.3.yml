@@ -48,7 +48,7 @@ jobs:
             -DGGML_NATIVE=OFF ^
             -DGGML_CUDA=ON ^
             -DCMAKE_CUDA_ARCHITECTURES=89-real ^
-            -DGGML_CUDA_FA_ALL_QUANTS=ON ^
+            -DGGML_CUDA_FA_ALL_QUANTS=OFF ^
             -DGGML_CUDA_CUB_3DOT2=ON ^
             -DGGML_RPC=ON
           set NINJA_JOBS=3
